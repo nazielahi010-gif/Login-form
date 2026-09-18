@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./fontawesome-free-7.3.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./Style_login.css">
+</head>
+
+<body>
+    <div class="circles"></div>
+    <div class="container">
+        <div class="box">
+            <h2>Welcome , sign in to continue</h2>
+            <form action="" id="loginForm" novalidate>
+                <div class="inputbox">
+                    <small class="error-message" id="username-error"></small>
+                    <div class="input-wrap">
+                        <i class="fa fa-user"></i>
+                        <input required="required" type="text" id="username" name="username" minlength="5" autocomplete="username" placeholder=" ">
+                        <span>Enter your email or phone number</span>
+                        <i class="line"></i>
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <small class="error-message" id="password-error"></small>
+                    <div class="input-wrap">
+                        <i class="fa fa-lock"></i>
+                        <input required="required" type="password" id="password" name="password" minlength="8" autocomplete="current-password" placeholder=" ">
+                        <span>Enter your password</span>
+                        <i class="line"></i>
+                    </div>
+                </div>
+                <div class="form-options">
+                    <div class="Remember-box">
+                        <input type="checkbox" id="Remember">
+                        <label for="Remember">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-link">Forgot password?</a>
+                </div>
+                <button type="submit" class="login">Sign In</button>
+                <p>Don't have an accountyet? </p>
+                <a href="#" class="signup">Create account</a>
+            </form>
+        </div>
+    </div>
+    <script src="./style login.js"></script>
+</body>
+
+</html>
